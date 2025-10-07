@@ -1,0 +1,53 @@
+
+function App() {
+  return (
+    <div className="container">
+      <h3 className="welcome">Welcome to my Portfolio!</h3>
+      <h1>Nejitha Sulfikkar</h1>
+      <h2>CSE student</h2>
+
+      {/* About Section */}
+      <div className="section about">
+        <h2>About Me</h2>
+        <p>
+          I am a 3rd year CSE student. I enjoy
+          creating clean, responsive, and user-friendly applications. I am
+          always eager to learn new technologies and improve my skills.
+        </p>
+      </div>
+
+      {/* Skills Section */}
+      <div className="section skills">
+        <h2>Skills</h2>
+        <div className="skills-list">
+          <div className="skill">Python</div>
+          <div className="skill">C</div>
+          <div className="skill">Java</div>
+          <div className="skill">Problem Solving</div>
+          <div className="skill">Team Work</div>
+        </div>
+      </div>
+
+      {/* Projects Section */}
+      <div className="section projects">
+        <h2>Projects</h2>
+        <div className="projects-list">
+          <div className="project">
+            <h3>Egg Timer</h3>
+            <p>A simple timer app to track time efficiently.</p>
+          </div>
+          <div className="project">
+            <h3>Birthday Card</h3>
+            <p>A creative web-based birthday card project.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Thanks Section */}
+      <p className="thanks">Thanks for visiting my portfolio!</p>
+    </div>
+  );
+}
+
+
+export default App;
